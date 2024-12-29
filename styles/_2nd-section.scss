@@ -1,0 +1,163 @@
+
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;  
+    padding: 20px;
+    width: 740px;
+
+
+    .title {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        margin-right: 50%;
+        margin-top: 10%;
+       
+    }
+
+    .coins {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 6%;
+
+
+        img {
+            transition: all 0.3s ease;
+
+        }
+        img:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+
+
+
+
+
+    .test {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 6%;
+        gap: 160px;
+
+        .latest {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+
+
+            h2 {
+                font-weight: 400;
+                font-size: 30px;
+            }
+            b {
+                font-weight: 600;
+                font-size: 16px;
+                color: rgba(111, 118, 126, 1);
+            }
+        }
+
+
+        .edit {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            a {
+                color: rgba(111, 118, 126, 1);
+                font-weight: 400;
+                font-size: 18px;
+
+            }
+        }
+
+
+
+        .icons {
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+
+
+
+
+
+    .project-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 55px;
+        margin-top: 2%;
+
+
+        .project-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            
+            .text {
+                display: flex;
+               align-items: start;
+               justify-content: start;
+                flex-direction: column;
+                gap: 8px;
+
+
+                b {
+                    font-weight: 500;
+                    font-size: 18px;
+
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: rgba(111, 118, 126, 1);
+                }
+            }
+
+        }
+
+        .text-1 {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+            gap: 8px;
+            b {
+                font-weight: 500;
+                font-size: 18px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 14px;                
+                color: rgba(111, 118, 126, 1);
+            }
+        }
+
+
+    }
+}

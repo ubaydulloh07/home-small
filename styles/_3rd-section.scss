@@ -1,0 +1,133 @@
+
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background: rgba(249, 250, 255, 1);
+   width: 450px;
+    
+
+
+
+
+
+    .cards {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 75px;
+
+
+        .ll {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 50px;
+            background: rgba(255, 255, 255, 1);
+            border-radius: 10px;
+            box-shadow: black 0px 0px 5px 0px;
+
+            img {
+                
+                width: 50px;
+                height: 40px;
+            }
+        }
+        .tt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                color: rgb(111, 118, 126);
+
+                &:hover {
+                    color: rgb(95, 117, 238);
+                }
+            }
+        }
+
+     
+    }
+
+
+    .payment {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 100px;
+
+        h2 {    
+            font-weight: 500;
+            font-size: 30px;
+        }
+
+        button {
+            width: 105px;
+            height: 50px;
+            background-color: white;
+            border-radius: 10px;
+           border: none;
+            font-weight: 500;
+            font-size: 16px;
+            color:black;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: rgb(95, 117, 238);
+                color: white;
+            }
+        }
+    }
+
+   
+    .payment-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+
+
+        &:hover {
+            transform: scale(1.02);
+
+        }
+    }
+
+    .create {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .wallet {
+        display: flex;
+       align-items: start;
+       justify-content: start;
+        gap: 20px;
+        margin-top: 20px;
+        margin-right: 55%;
+
+
+        h2 {
+            font-weight: 500;
+            font-size: 30px;
+          
+        }
+    }
+}

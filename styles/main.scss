@@ -1,0 +1,22 @@
+@import "./1st-section";
+@import "./2nd-section";
+@import "./3rd-section";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 20px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
